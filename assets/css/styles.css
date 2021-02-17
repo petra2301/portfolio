@@ -123,7 +123,7 @@ nav > ul > li > a:hover {
 
 .btn {
   border-radius: 0;
-  padding: 10px 15px;
+  padding: 10px 25px;
 }
 
 .btn-primary {
@@ -165,6 +165,10 @@ nav > ul > li > a:hover {
   background-size: 200% 200%;
   background-repeat: no-repeat;
   background-position: 0%;
+}
+
+.container-fluid {
+  padding-right: 100px;
 }
 
 .lead {
