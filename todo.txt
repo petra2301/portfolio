@@ -1,4 +1,3 @@
 active menu item on scroll
-responsive menu
 content
-gallery
+download resources locally

@@ -13,6 +13,7 @@
   --linkHover: #33001b;
   --headings: #222222;
   --text: #4f4f4f;
+  --footerBg: #222222;
 }
 
 * {
@@ -21,6 +22,8 @@
 
 body {
   background-color: var(--bodyBg);
+  color: var(--text);
+  padding-right: 100px;
 }
 
 html {
@@ -56,6 +59,10 @@ h3 {
   font-weight: 700;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headings);
+}
+
 h1 {
   font-size: 5em;
 }
@@ -73,27 +80,6 @@ p {
 }
 
 /* HEADER AND NAV */
-/* header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-nav > ul > li > a {
-  font-weight: 700;
-  color: var(--text);
-  font-size: 1em;
-}
-
-.sticky {
-  background-color: var(--bodyBg);
-  height: 76px;
-  width: 100%;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-} */
 
 header {
   position: fixed;
@@ -102,7 +88,7 @@ header {
   width: 100px;
   height: 100%;
   border-left: 1px solid #c9c9c9;
-  background-color: var(--bodyBg);
+  transition: .3s ease-in-out;
 }
 
 nav > ul > li > a {
@@ -167,6 +153,15 @@ nav > ul > li > a:hover {
   background-position: 0%;
 }
 
+.btn:focus, .btn:active, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-primary:focus, .btn-primary:active {
+    box-shadow: 0 0 0 0.25rem rgb(199 0 103 / 30%);
+}
+
+.btn-outline-primary:focus, .btn-outline-primary:active {
+  color: var(--link);
+  border-color: var(--link);
+  background-color: var(--bodyBg);
+}
 .container-fluid {
   padding-right: 100px;
 }
@@ -174,6 +169,12 @@ nav > ul > li > a:hover {
 .lead {
   font-size: 1.75em;
   font-weight: 700;
+}
+
+/* FOTORAMA OVERRIDES */
+.fotorama__wrap {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* CUSTOM ELEMENTS */
@@ -185,6 +186,7 @@ nav > ul > li > a:hover {
 .divider {
   height: 5px;
   width: 400px;
+  max-width: 100%;
   background-color: var(--headings);
   margin-top: 15px;
   margin-bottom: 35px;
@@ -209,11 +211,32 @@ nav > ul > li > a:hover {
 
 .intro {
   min-height: 100vh;
+  max-height: 100vh;
+}
+
+.intro-img {
+  max-height: 100vh;
+width: auto!important;
 }
 
 .testimonial-img {
   max-width: 115px;
 }
+
+/* UNIQUE ELEMENTS */
+#openMobileMenu {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  font-size: 3em;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.shiftedMobileMenu {
+  right: 105px!important;
+}
+
 
 /* FOOTER */
 footer {
@@ -226,9 +249,21 @@ footer {
     }
 }
 
+@media all and (max-width: 776px) {
+  .intro {
+    height: auto;
+    width: auto;
+    min-height: unset;
+    max-height: unset;
 
+  }
 
+  .intro-img {
+    max-width: 100%;
+    height: auto!important;
+  }
 
-.active {
-  color: red;
+  #intro-text {
+    margin-top: -50%;
+  }
 }

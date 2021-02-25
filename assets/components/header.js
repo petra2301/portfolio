@@ -5,7 +5,8 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <header>
+        <i class="fas fa-bars d-block d-md-none" id="openMobileMenu"></i>
+        <header class="d-none d-md-block p-3">
         <div class="d-flex flex-column h-100 justify-content-between p-2">
           <div>
             <nav>
