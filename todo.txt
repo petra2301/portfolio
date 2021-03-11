@@ -2,3 +2,5 @@ active menu item on scroll
 content
 download resources locally
 add links to index.html
+download cv
+new cv with apv in it and not in indesign

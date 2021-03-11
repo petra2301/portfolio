@@ -7,7 +7,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <i class="fas fa-bars d-block d-md-none" id="openMobileMenu"></i>
         <header class="d-none d-md-block p-3">
-        <div class="d-flex flex-column h-100 justify-content-between p-2">
+        <div class="d-flex flex-column h-100 justify-content-between">
           <div>
             <nav>
               <ul class="m-0 p-0">
@@ -15,6 +15,7 @@ class Header extends HTMLElement {
                 <li class="d-block"><a href="#portfolio">portfolio</a></li>
                 <li class="d-block"><a href="#aboutme">about me</a></li>
                 <li class="d-block"><a href="#">CV</a></li>
+                <li class="d-block"><a href="#extras">extras</a></li>
               </ul>
             </nav>
           </div>

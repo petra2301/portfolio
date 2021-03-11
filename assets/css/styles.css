@@ -166,6 +166,16 @@ nav > ul > li > a:hover {
   padding-right: 100px;
 }
 
+.img-thumbnail {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  max-width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
 .lead {
   font-size: 1.75em;
   font-weight: 700;
@@ -209,6 +219,7 @@ nav > ul > li > a:hover {
   color: var(--link);
 }
 
+
 .intro {
   min-height: 100vh;
   max-height: 100vh;
@@ -238,6 +249,7 @@ width: auto!important;
 }
 
 
+
 /* FOOTER */
 footer {
   background-color: #222222;
@@ -247,6 +259,10 @@ footer {
     .text-lg-right {
         text-align: right!important;
     }
+    .img-thumbnail-lg {
+      height: 450px;
+    }
+    
 }
 
 @media all and (max-width: 776px) {
