@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/dce6b18441.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <!-- my stuff -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <script src="assets/components/header.js"></script>
+
+    <title>UI | Petra Gergely</title>
+  </head>
+  <body>
+    <!-- LIGHTBOX OVERLAY - INVISIBLE UNTIL TRIGGERED -->
+    <div class="lightboxBg p-5 d-none">
+      <i class="fas fa-times" id="closeLightbox"></i>
+      <div class="lightbox">
+        <div class="lightbox"></div>
+      </div>
+    </div>
+
+    <header-component></header-component>
+    <main>
+      <div class="container p-5">
+        <h1>extras - ui</h1>
+        <div class="divider"></div>
+        <p class="lead mb-5">The occasional relaxing hobby design projects.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/extras-dailyui-3.png" />
+          <img src="assets/img/extras-dailyui-1.png" />
+          <img src="assets/img/extras-dailyui-2.png" />
+          <img src="assets/img/extras-dailyui-4.png" />
+          <img src="assets/img/extras-dailyui-5.png" />
+          <img src="assets/img/extras-dailyui-6.png" />
+          <img src="assets/img/extras-dailyui-7.png" />
+          <img src="assets/img/extras-dailyui-8.png" />
+          <img src="assets/img/extras-dailyui-9.png" />
+          <img src="assets/img/extras-dailyui-10.png" />
+          <img src="assets/img/extras-dailyui-11.png" />
+          <img src="assets/img/extras-dailyui-12.png" />
+          <img src="assets/img/extras-dailyui-14.png" />
+          <img src="assets/img/extras-dailyui-17.png" />
+          <img src="assets/img/extras-dailyui-16.png" />
+          <img src="assets/img/extras-dailyui-15.png" />
+          <img src="assets/img/extras-dailyui-18.png" />
+        </div>
+      </div>
+      <div class="container-fluid p-5">
+        <a href="index.html" class="btn btn-primary"><i class="fas fa-angle-double-left text-white" aria-hidden="true"></i> Go back to Home</a>
+      </div>
+    </main>
+    <footer>
+      <div class="col-12 p-5">
+        <p class="text-center">2020 - Petra Gergely</p>
+      </div>
+    </footer>
+
+    <!-- Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <!-- OTHER JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+    <!-- MY JS -->
+    <script src="assets/js/mobilemenu.js"></script>
+    <script src="assets/js/imglightbox.js"></script>
+  </body>
+</html>

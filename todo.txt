@@ -1,6 +1,10 @@
 active menu item on scroll
-content
+content:
+- blog
+- online cv
 download resources locally
-add links to index.html
 download cv
 new cv with apv in it and not in indesign
+style the accordion (akademi page)
+list style indent 
+case study hero h1 too big (see programmering)

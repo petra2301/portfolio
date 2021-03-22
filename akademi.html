@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/dce6b18441.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <!-- OTHER JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+    <!-- my stuff -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/components/header.js"></script>
+
+    <title>Akademi for Programmering, Oslo | Petra Gergely</title>
+  </head>
+  <body>
+    <header-component></header-component>
+
+    <main>
+      <div class="container-fluid p-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="assets/img/akademi-webdesign-thumbnail.jpg" alt="Akademi for Programmering screenshot" class="w-100" />
+          </div>
+          <div class="col-md-6">
+            <h1>Akademi for Programmering, Oslo</h1>
+            <div class="divider"></div>
+            <p>The purpose of the redesign is improving UX using the quantitative and qualitative data we gathered in the year before.</p>
+            <a href="http://www.akademi-for-programmering.no/" target="_blank" class="btn btn-primary mb-3">See website <i class="fas fa-external-link-alt text-white ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container container-900 p-5">
+        <div class="row">
+          <h2>Introduction</h2>
+          <div class="divider"></div>
+          <h3>Iteraring on the first design</h3>
+          <p>Since we had a page that was already live and working, I first looked at the <strong>data</strong> we gathered in the past year. This data included <strong>CTR numbers</strong> that showed us what <strong>USPs, images</strong> and <strong>texts</strong> worked the best in advertisements.</p>
+          <p>I also went through all the contact e-mails we got to figure out what people <strong>ask frequently</strong>. This gave me a good <strong>insight</strong> into what people think is important <strong>information</strong>, but don’t understand or can’t find on the webpage. I made these <strong>more obvious</strong> on the new front page.</p>
+          <p>Once I had the data I needed, I made <strong>sketches</strong> to arrange the new content, that later developed into <strong>wireframes</strong> and a <strong>prototype</strong>.</p>
+          <p>I also created <strong>personas</strong> to doublecheck and reinforce the importance of our USPs (please, contact me for personas).</p>
+          <p>A remark about the difference in the prototype design and the finished product: we decided to use a light theme due to different usability concerns as well as better compatibility with recognizable partner logos.</p></p>
+        </div>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/akademi-wireframing-1.jpg" />
+          <img src="assets/img/akademi-wireframing-2.jpg" />
+          <img src="assets/img/akademi-wireframing-3.jpg" />
+          <img src="assets/img/akademi-wireframing-4.png" />
+          <img src="assets/img/akademi-wireframing-5.png" />
+        </div>
+
+        <div class="row">
+            <h2 class="mt-5">Data</h2>
+            <div class="divider"></div>
+            <h3>Quantitative data from advertisements</h3>
+            <p>The most effective texts and headlines were the ones that included the location, practical workshops and portfolio. The most effective headline even brought 85% of the clicks.</p>
+            <p>The most effective CTA was “Learn more” – so all the buttons have “Learn more” on them now </p>
+            <h3>Qualitative data from people</h3>
+            <p>The most common things people asked about:</p>
+            <ul>
+                <li>when and where the courses are</li>
+                <li>if previous experience is required</li>
+                <li>general confusion if it’s an online course, or an evening course</li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <h2 class="mt-5">Design changes</h2>
+            <div class="divider"></div>
+            <h3>Imagery</h3>
+            <p>According to our data, images with code speak to our target audience, therefore we choose a banner where code is visible, but it's homogeneous enough to be the background for our hero text.</p>
+
+            <div class="accordion mb-3" id="imagery">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="imageryHeading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseImagery" aria-expanded="false" aria-controls="collapseImagery">
+                      Why did the slogan change?
+                    </button>
+                  </h2>
+                  <div id="collapseImagery" class="accordion-collapse collapse show" aria-labelledby="imageryHeading" data-bs-parent="#imagery">
+                    <div class="accordion-body">
+                        <p>Our old slogan was “Learn full-stack programming from scratch in one year by experts”.</p>
+                        <p>Many asked if they could take the front-end and back-end courses separately, due to time and money problems. We concluded that 1 year is too big of a commitment, so we reduced the course’s price, and its length to 6 months, and made the two parts available separately.</p>
+                        <p><strong>Competitor analysis</strong> also revealed that <strong>live mentoring</strong> is our <strong>strongest unique selling point</strong> (USP) compared to online tutorial sites like, Freecodecamp, Udemy or Udacity. Therefore it is also included in the new slogan.</p>
+                        <p>Our new slogan is “Full-stack programming course in Oslo with live mentoring”.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+                <div class="col-md-6 mb-3">
+                    <h4>Original</h4>
+                    <img src="assets/img/akademi-imagery-before.jpg" alt="Imagery before" class="w-100">
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4>Redesign</h4>
+                    <img src="assets/img/akademi-imagery-after.png" alt="Imagery after" class="w-100">
+                </div>
+
+                <h3>Getting to the point</h3>
+                <p>I moved parts of the intro section to an “About us” page in order to <strong>display the courses withing fewer scrolls</strong>. I did this because I assume people are initially more interested in what solution we have for their problems, rather than who we are.</p>
+                <p>I also changed the button text from “Read more” to <strong>“Learn more”</strong>, because that’s what <strong>performed best</strong> in the advertisements.</p>
+
+                <div class="col-md-6 mb-3">
+                    <h4>Original</h4>
+                    <img src="assets/img/akademi-intro-before.jpg" alt="Intro before" class="w-100">
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4>Redesign</h4>
+                    <img src="assets/img/akademi-intro-after.png" alt="Intro after" class="w-100">
+                </div>
+
+                <h3>Emphasized USPs & readability</h3>
+                <p>In order to improve readability I divided the text into smaller bits, and added headings that included our <strong>well-performing USPs</strong> and things  e-mails frequently asked about.</p>
+                <p>These keywords are:</p>
+                <ul>
+                    <li>portfolio</li>
+                    <li>weekend courses</li>
+                    <li>in Oslo</li>
+                    <li>for beginners</li>
+                </ul>
+                <p>People kept mistaking the blue words for links, so we used orange for highlighting instead.</p>
+
+                <div class="col-md-6 mb-3">
+                    <h4>Original</h4>
+                    <img src="assets/img/akademi-readability-before.jpg" alt="readability before" class="w-100">
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h4>Redesign</h4>
+                    <img src="assets/img/akademi-readability-after.png" alt="readability after" class="w-100">
+                </div>
+
+                <h3>Other interesting results</h3>
+                <p>Initially I chose a quite artistic picture of Oslo to represent the location, but testers said that there was a high chance <strong>users are not be familiar</strong> with this view at all.</p>
+                <p>Therefore I chose a more casual image, something visitors and Oslo-ers would see every day: the Rådhus It is represented in our logo, and it makes users recognize the place before they read anything. </p>
+
+                <div class="col-md-6 mb-3">
+                    <h4>Original</h4>
+                    <img src="assets/img/akademi-other-before-1.png" alt="Venue image before" class="w-100">
+                </div>
+                <div class="col-md-6">
+                    <h4>Redesign</h4>
+                    <img src="assets/img/akademi-other-after-1.png" alt="Venue image after" class="w-100">
+                </div>
+              </div>
+
+
+        </div>
+
+        <!-- container's closing tag -->
+      </div>
+      <div class="container-fluid p-5">
+        <a href="index.html" class="btn btn-primary"><i class="fas fa-angle-double-left text-white"></i> Go back to Home</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="col-12 p-5">
+        <p class="text-center">2020 - Petra Gergely</p>
+      </div>
+    </footer>
+
+    <!-- Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <!-- MY JS -->
+    <script src="assets/js/mobilemenu.js"></script>
+  </body>
+</html>

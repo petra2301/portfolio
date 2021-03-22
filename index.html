@@ -12,11 +12,20 @@
 
     <!-- my stuff -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css">
     <script src="assets/components/index.js"></script>
 
     <title>Petra Gergely</title>
   </head>
   <body>
+
+    
+    <div class="lightboxBg p-5 d-none">
+      <i class="fas fa-times" id="closeLightbox"></i>
+    <div class="lightbox">
+      <div class="lightbox"></div>
+    </div>
+  </div>
 
     <header-component></header-component>
 
@@ -45,17 +54,18 @@
             <div class="divider"></div>
           </div>
           <div class="col-md-6">
-            <img src="assets/img/gonorth-webdesign-thumbnail.jpg" class="w-100 mb-3" alt="Your Journey North mockup" />
+            <img src="assets/img/gonorth-webdesign-thumbnail.jpg" alt="Your Journey North mockup" class="w-100 img-lightbox img-thumbnail img-thumbnail-lg shadow mb-3">
             <h3 class="mb-3">Your Journey North</h3>
             <p>An extensive case study about how I designed and coded a homepage and a <strong>React app</strong> for my passion project about Nordic tourism.</p>
             <p>A long read, focusing on <strong>designing, prototyping,</strong> and <strong>technical implementation</strong>.</p>
             <a href="north.html" class="btn btn-primary">Read more</a>
           </div>
           <div class="col-md-6">
-            <img src="assets/img/akademi-webdesign-thumbnail.jpg" alt="Akademi for Programmering design" class="w-100 mb-3"/>
+            <img src="assets/img/akademi-webdesign-thumbnail.jpg" alt="Akademi for Programmering design" class="w-100 img-lightbox img-thumbnail img-thumbnail-lg shadow mb-3">
             <h3 class="mb-3">Akademi for Programmering, Oslo</h3>
-            <p>An extensive case study about how I work; including brand design, visual design, research and UX.</p>
-            <a href="akademi-for-programmering.html" class="btn btn-primary">Read more</a>
+              <p>An extensive case study focusing on <strong>visual communication</strong> and <strong>UX</strong>.</p>
+              <p>A long read about <strong>how I work</strong> with qualitative and quantitative <strong>data</strong>, and how I approach <strong>usability</strong> issues and <strong>user feedback</strong>.</p>
+            <a href="akademi.html" class="btn btn-primary">Read more</a>
           </div>
         </div>
       </div>
@@ -141,13 +151,13 @@
             <i class="fas fa-mobile-alt icon-lg icon-muted mb-3"></i>
             <h3>Daily UI</h3>
             <p>Releasing creative energies with the occasional Daily UI project.</p>
-            <button class="btn btn-primary">See more</button>
+            <a class="btn btn-primary" href="extras-ui.html">See more</a>
           </div>
           <div class="col-md-4 text-center mb-5">
             <i class="fas fa-vector-square icon-lg icon-muted mb-3"></i>
             <h3>Design</h3>
             <p>Digital and print design, logo, posters, and many more...</p>
-            <button class="btn btn-primary">See more</button>
+            <a class="btn btn-primary" href="extras-print.html">See more</a>
           </div>
         </div>
       </div>
@@ -169,5 +179,6 @@
 
     <!-- MY JS -->
     <script src="assets/js/mobilemenu.js"></script>
+    <script src="assets/js/imglightbox.js"></script>
   </body>
 </html>
