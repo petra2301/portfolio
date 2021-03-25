@@ -1,6 +1,8 @@
 active menu item on scroll
 content
+- iform case study
 download resources locally
-add links to index.html
 download cv
 new cv with apv in it and not in indesign
+images
+favicon
