@@ -188,14 +188,16 @@ nav > ul > li > a:hover {
 }
 
 /* CUSTOM ELEMENTS */
-
+.bg-opacity-8 {
+  background-color: rgb(223 223 223 / 80%);
+}
 .container-900 {
   max-width: 900px;
 }
 
 .divider {
   height: 5px;
-  width: 400px;
+  width: 300px;
   max-width: 100%;
   background-color: var(--headings);
   margin-top: 15px;
@@ -228,6 +230,8 @@ nav > ul > li > a:hover {
 .intro-img {
   max-height: 100vh;
 width: auto!important;
+max-width: calc(100vw - 100px);
+object-fit: cover;
 }
 
 .testimonial-img {
