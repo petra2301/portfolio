@@ -1,11 +1,10 @@
 active menu item on scroll
-content:
-- blog
-- online cv
+style the accordion (akademi page)
+save images from wp to a different folder on the hosting
+content
+- iform case study
 download resources locally
 download cv
 new cv with apv in it and not in indesign
-style the accordion (akademi page)
-list style indent 
-case study hero h1 too big (see programmering)
-save images from wp to a different folder on the hosting
+images
+favicon

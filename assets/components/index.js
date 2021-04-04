@@ -14,7 +14,7 @@ class Header extends HTMLElement {
                 <li class="d-block"><a href="#">home</a></li>
                 <li class="d-block"><a href="#portfolio">portfolio</a></li>
                 <li class="d-block"><a href="#aboutme">about me</a></li>
-                <li class="d-block"><a href="#">CV</a></li>
+                <li class="d-block"><a href="cv.html">CV</a></li>
                 <li class="d-block"><a href="#extras">extras</a></li>
               </ul>
             </nav>

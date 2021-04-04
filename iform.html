@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/dce6b18441.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <!-- OTHER JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+    <!-- my stuff -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/components/header.js"></script>
+
+    <title>iForm | Petra Gergely</title>
+  </head>
+  <body>
+    <header-component></header-component>
+
+    <main>
+      <div class="container-fluid p-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="assets/img/iform-webdesign-thumbnail.png" alt="iForm sketch" class="w-100" />
+          </div>
+          <div class="col-md-6">
+            <h1>iForm</h1>
+            <div class="divider"></div>
+            <p>iForm tasked us with testing and optimizing a landing page and the respective checkout process for a subscription campaign. This was a school project that I worked on with 2 other teammates, and I was primarily responsible for small JS tasks, CSS and git merges.</p>
+            <a href="https://www.figma.com/file/gZBfM3tFc5op89MrjvU6hn/iForm?node-id=0%3A1" target="_blank" class="btn btn-primary mb-3">See Figma prototype</a>
+            <br>
+            <a href="https://codepen.io/petra2301/pen/PooKKmj" target="_blank" class="btn btn-outline-primary mb-3">See code example <i class="fas fa-external-link-alt text-white ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container container-900 p-5">
+        <div class="row">
+          <h2>Introduction</h2>
+          <div class="divider"></div>
+          <h3>A personal matter</h3>
+          <p>I’m personally more interested in the arctic areas, culture, hiking, roadtrips than going to warm places and hitting the beach. Throughout my journeys I’ve discovered that not everyone is aware of the nuances of the nordic landscape, and locals struggle dealing with the recent increase in tourism.</p>
+          <p>Educating tourists from different countries, geographical areas and cultures could help easen the locals’ struggles, and create a safe and memorable (in a good way) experience for visitors.</p>
+          <h3>How does it work in practice?</h3>
+          <p>After observation and research, I prepare content for the website. Instead of showering visitors in general information, I encourage them to use the bucketlist app; there they can choose the places they want to visit, and get specific, practical information about the places of their choice. Such information can be do’s and dont’s (according to locals), the best time to visit, the equipment you need, the unique things you have to watch out for.</p>
+          <p>The goal is to make this process exciting for visitors, so they WANT TO educate themselves about the place. Nobody likes to be lectured, but putting your bucketlist together, share it and get inspired can be exciting.</p>
+          <h3>Research</h3>
+          <p>It started with <strong>observation</strong>. I’ve seen the trash at Norway’s most remote and beautiful places with my own eyes. I’ve seen how shamelessly people just hide their kids’ diapers under a rock and move on with their trip. Therefore I had some assumptions that I went out to verify or disprove.</p>
+          <p><strong>Competitors:</strong> I’ve found that there are lots of travel agencies organizing Nordic holidays, but I’ve also found that the use of travel agencies has been declining since the 2000s.</p>
+          <p><strong>Quantitative research:</strong> Via a survey I gained more insight into holiday planning habits and interests of visitors.</p>
+        </div>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-research-1.png" />
+          <img src="assets/img/north-research-2.png" />
+          <img src="assets/img/north-research-3.png" />
+          <img src="assets/img/north-research-4.png" />
+          <img src="assets/img/north-research-5.png" />
+        </div>
+
+        <p><strong>Qualitative research:</strong> Via numerous interviews, I got more familiar with the struggles of locals.</p>
+        <p><strong>Personas:</strong> In order to better understand both parties, and clarify assumptions, I created personas. I was also able to refer back to them upon when making content, design decisions or technical features.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-persona-1-1.png" />
+          <img src="assets/img/north-persona-2-1.png" />
+          <img src="assets/img/north-persona-3-1.png" />
+          <img src="assets/img/north-persona-4-1.png" />
+          <img src="assets/img/north-persona-5-1.png" />
+        </div>
+
+        <h2 class="mt-5">Sketching and wireframing</h2>
+        <div class="divider"></div>
+        <h3>Wireframing</h3>
+        <p>For wireframing I used pen and paper first, to sketch layout ideas and user flow. I wanted to eliminate basic problems like dead-ends in the user journey or inconsistencies in the content. I also wanted to ideate about what technologies would be the best to use in certain cases.</p>
+        <p>I created a digital wireframe for the bucket list app in Adobe XD, with special attention to the add / remove features. This way I prepared content for production, and the basic logic for the user flow.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-wireframing-1.jpg" />
+          <img src="assets/img/north-wireframing-3.jpg" />
+          <img src="assets/img/north-wireframing-4.jpg" />
+          <img src="assets/img/north-wireframing-digital.png" />
+        </div>
+
+        <h3>Userflow</h3>
+        <p>In order to prepare for coding I prepared a user flow and a UML chart of how the interactive app would work.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-userflow-1.png" />
+          <img src="assets/img/north-userflow-2.png" />
+        </div>
+
+        <h3>Design</h3>
+        <p>I gathered inspiration from the <strong>simplicity</strong> of Scandinavian design, hence the dark blue and white color schemes spiced up with large-scale imagery of landscapes and all things Scandinavian.</p>
+        <p>For <strong>icons</strong> I used flat, less saturated colors that fit the clean design.</p>
+        <p>For <strong>typeface</strong> I use Inter, which is a sans-serif typeface. Sans-serif is a clean choice, but it’s versatile enough for both headings and paragraphs using a variety of its font weights.</p>
+        <p>The emphasis is on the travel destinations, therefore the <strong>images</strong> should be in focus. The simple design and the sans-serif font lets the imagery be in focus.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-moodboard.png" />
+          <img src="assets/img/gonorth-webdesign-thumbnail.jpg" />
+        </div>
+
+        <h3>Prototyping</h3>
+        <p>In my prototyping phase I created a prototype that’s high-fidelity in design for the web page, where I implemented a more detailed user flow and included content, like the countries and specific places, as well as the bucket list app.</p>
+        <p>I also created a functionally and design-wise high fidelity prototype for the bucket list web app, where I included functionality for the country selection, to view the most popular places in Norway, add and remove items from the bucket list, and view the bucket list in a new window.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-prototyping-1.png" />
+          <img src="assets/img/north-prototyping-2.png" />
+        </div>
+
+        <p><strong>Major changes in the prototyping phase were:</strong></p>
+        <ul>
+          <li>Adding a sidebar to the bucketlist app, so users can see their list all the time, instead of having to go to a separate page</li>
+          <li>Changing the menu placement to reveal destinations instead of putting them in a drop-down. Since the survey proved that location is the first thing people figure out, locations should be available without clicking. Hence the menu on the side.</li>
+          <li>Changing the transparency of the form, to make it more universal; the text within is now more readable regardless of background image and position.</li>
+        </ul>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-prototyping-changes-2.png" />
+          <img src="assets/img/north-prototyping-changes-3.jpg" />
+          <img src="assets/img/north-prototyping-changes-4.jpg" />
+          <img src="assets/img/north-prototyping-changes-5.png" />
+          <img src="assets/img/north-prototyping-changes-6.png" />
+        </div>
+
+        <h3>UX</h3>
+        <p>It was challenging to do good testing done during the <strong>2020 pandemic</strong> situation, but the vast selection of online tools helped me overcome this.</p>
+        <p>Usability testing was limited to interviewing the few people that were close to me (friends and family), but aren’t necessary the target audience. Nevertheless, it still helped me flush out major usability flaws, like the sidebar being too big in the app (or that there was a need for the sidebar, at all).</p>
+        <p>In order to get more feedback, I used usabilityhub to create a 5-second test. I showed the top of the index page for users for 5 seconds and asked the following questions afterwards:</p>
+        <ul>
+          <li>What do you think the page is about?</li>
+          <li>What grabbed your attention?</li>
+          <li>What’s your impression about the site?</li>
+          <li>What is the mood/atmosphere of the site?</li>
+          <li>What words can you recall?</li>
+        </ul>
+        <p>The reception of the design was generally positive (some said it was a little gloomy), and people understood that the page is about travelling and Scandinavia.</p>
+        <p>For the app, I added a “how does it work?” button, so people have a helping hand using the app for the first time.</p>
+        <img src="assets/img/north-app-how-does-it-work.png" alt="How does it work? UI" class="w-100 mb-5" />
+
+        <h2>From design to code</h2>
+        <div class="divider"></div>
+        <p>My biggest challenge was that I really wanted to design something visually unique, but reusable and responsive, because I knew I would be working a lot with API later on, and then populate the HTML with fetched data.</p>
+        <p>Therefore I took a rather lengthy design process, and spent a week on sketching and pseudo-coding the elements to figure out how to make them reusable and responsive with an optimal amount of code.</p>
+
+        <h3>Reusable HTML elements</h3>
+        <p>Throughout the whole design process I had a focus on technical feasibility. Based on the prototype I set up different HTML/CSS components I could reuse later in my <code>template</code> tags for displaying content from an API, or just in general layout.</p>
+        <p>This took a significant amount of time in the beginning, but saved a lot of time in later phases of production. When I started filling the page up with content building the actual page took little time, so I could focus on the content creation. Reusing HTML elements this way also helped keeping a consistent appearance throughout the whole site.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-from-design-to-code-2.png" class="w-100" />
+          <img src="assets/img/north-from-design-to-code-3.png" class="w-100" />
+          <img src="assets/img/north-from-design-to-code-4.jpg" class="w-100" />
+          <img src="assets/img/north-from-design-to-code-5.png" class="w-100" />
+          <img src="assets/img/north-from-design-to-code-6.png" class="w-100" />
+        </div>
+
+        <a href="https://codepen.io/petra2301/pen/oNjEKLP" target="_blank" class="btn btn-outline-primary mb-5"><i class="fab fa-codepen"></i> View the responsive photo collage element on CodePen </a>
+
+        <h3>React.js & API</h3>
+        <p>I used a JSON object generated from Google Sheets for storing data because It’s easy to maintain and navigate. I used React.js for building the bucketlist app, because it’s a highly dynamic page, often reusing elements and updating the UI.</p>
+
+        <p><strong>How does it work?</strong></p>
+
+        <p>The user selects a country that calls a component.</p>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-react-1.png" alt="Choose a country, UI" class="w-100" />
+          <img src="assets/img/north-react-1b.png" alt="Choose a country, code" class="w-100" />
+          <img src="assets/img/north-react-1c.png" alt="Country components in React code" class="w-100" />
+          <img src="assets/img/north-react-1d.png" alt="Components in file list" class="mb-3" />
+        </div>
+
+        <p><strong>The selected country’s component then:</strong></p>
+        <ul>
+          <li>fetches the data from the selected country’s JSON</li>
+          <li>uses a for loop to skim through every item and see if they are “popular”</li>
+          <li>then creates a JSX “item” for every place (pre-styled with CSS)</li>
+          <li>pushes that item to an array</li>
+          <li>returns the array</li>
+          <li>renders the filters for the given country</li>
+        </ul>
+
+        <div class="fotorama mb-3" data-nav="thumbs">
+          <img src="assets/img/north-react-2.png" alt="Destination component" class="w-100" />
+          <img src="assets/img/north-react-2b.jpg" alt="Destinations look like this when rendered to the section" class="w-100" />
+        </div>
+
+        <p><strong>How filtering works</strong></p>
+        <p>The filters are buttons with an eventhandler.</p>
+        <p>The eventhandler then iterates through the objects in a similar way “popular” does (with a for loop).</p>
+        <p>The button changes to an “active” state, to visually indicate what filter is applied.</p>
+        <p>Clicking any other filter / button removes the active state from the previous button, and displays different suggestions.</p>
+
+        <div class="fotorama mb-5" data-nav="thumbs">
+          <img src="assets/img/north-react-3.png" alt="Activity filters, UI" class="w-100" />
+          <img src="assets/img/north-react-3b.png" alt="Activity filters, code" class="w-100" />
+          <img src="assets/img/north-react-3c.png" alt="Destinations with a specific activity rendered to the UI" class="w-100" />
+          <img src="assets/img/north-react-3d.png" alt="Destinations with a specific activity, code" class="w-100" />
+          <img src="assets/img/north-react-3e.png" alt="Destinations with a specific activity rendered to the UI" class="w-100" />
+        </div>
+
+        <!-- container's closing tag -->
+      </div>
+      <div class="container-fluid p-5">
+        <a href="index.html" class="btn btn-primary"><i class="fas fa-angle-double-left text-white"></i> Go back to Home</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="col-12 p-5">
+        <p class="text-center">2020 - Petra Gergely</p>
+      </div>
+    </footer>
+
+    <!-- Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    <!-- MY JS -->
+    <script src="assets/js/mobilemenu.js"></script>
+  </body>
+</html>
