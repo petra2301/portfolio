@@ -8,3 +8,4 @@ new cv with apv in it and not in indesign
 style the accordion (akademi page)
 list style indent 
 case study hero h1 too big (see programmering)
+save images from wp to a different folder on the hosting

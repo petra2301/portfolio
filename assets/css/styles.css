@@ -64,11 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 3.75em;
+  font-size: 3em;
 }
 
 i {
@@ -242,6 +242,10 @@ width: auto!important;
   font-size: 3em;
   cursor: pointer;
   transition: .3s ease-in-out;
+}
+
+#intro-title {
+  font-size: 5em;
 }
 
 .shiftedMobileMenu {
