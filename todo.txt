@@ -5,6 +5,7 @@ content
 - iform case study
 download resources locally
 download cv
-new cv with apv in it and not in indesign
 images
 favicon
+order on north project
+order on iform project

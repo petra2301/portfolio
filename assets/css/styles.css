@@ -89,6 +89,7 @@ header {
   height: 100%;
   border-left: 1px solid #c9c9c9;
   transition: .3s ease-in-out;
+  background-color: var(--bodyBg);
 }
 
 nav > ul > li > a {
@@ -224,7 +225,7 @@ nav > ul > li > a:hover {
 
 .intro {
   min-height: 100vh;
-  max-height: 100vh;
+  /* max-height: 100vh; */
 }
 
 .intro-img {
