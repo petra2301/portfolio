@@ -6,6 +6,6 @@ content
 download resources locally
 download cv
 images
-favicon
 order on north project
 order on iform project
+refine hair edges on background img
