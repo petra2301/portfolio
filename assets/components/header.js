@@ -20,10 +20,10 @@ class Header extends HTMLElement {
             </nav>
           </div>
           <div class="text-center">
-            <a href="https://www.linkedin.com/in/petra-gergely-2301/" target="_blank"><i class="fab fa-linkedin icon-md icon-muted m-3"></i></a>
-            <a href="https://github.com/petra2301" target="_blank"><i class="fab fa-github-square icon-md icon-muted m-3"></i></a>
-            <a href="https://codepen.io/petra2301" target="_blank"><i class="fab fa-codepen icon-md icon-muted m-3"></i></a>
-            <a href="https://www.instagram.com/frontendfairycph/" target="_blank"><i class="fab fa-instagram icon-md icon-muted m-3"></i></a>
+            <a href="https://www.linkedin.com/in/petra-gergely-2301/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin icon-md icon-muted m-3"></i></a>
+            <a href="https://github.com/petra2301" target="_blank" rel="noreferrer"><i class="fab fa-github-square icon-md icon-muted m-3"></i></a>
+            <a href="https://codepen.io/petra2301" target="_blank" rel="noreferrer"><i class="fab fa-codepen icon-md icon-muted m-3"></i></a>
+            <a href="https://www.instagram.com/frontendfairycph/" target="_blank" rel="noreferrer"><i class="fab fa-instagram icon-md icon-muted m-3"></i></a>
           </div>
         </div>
       </header>

@@ -1,11 +1,12 @@
 active menu item on scroll
 style the accordion (akademi page)
-save images from wp to a different folder on the hosting
+
 content
+- akademi
+- your journey north
+
+school stuff?
 - iform case study
-download resources locally
+
 download cv
 images
-favicon
-order on north project
-order on iform project

@@ -104,6 +104,50 @@ nav > ul > li > a:hover {
 }
 
 /* BOOTSTRAP OVERRIDES */
+ .accordion-button.collapsed {
+  color: #ffffff;
+  background-color: var(--link);
+  border: none;
+  background: -moz-linear-gradient(-45deg, #ff0084 0%, #33001b 100%);
+  background: -webkit-linear-gradient( 
+-45deg , #ff0084 0%,#33001b 100%);
+  background: linear-gradient( 
+135deg , #ff0084 0%,#33001b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#33001b',GradientType=1 );
+  transition: background-image .3s ease-in-out;
+  transition: 0.5s all;
+  background-position: 50%;
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: var(--link);
+  background: -moz-linear-gradient(-45deg, #ff0084 0%, #33001b 100%);
+  background: -webkit-linear-gradient( 
+-45deg , #ff0084 0%,#33001b 100%);
+  background: linear-gradient( 
+135deg , #ff0084 0%,#33001b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#33001b',GradientType=1 );
+  transition: background-image .3s ease-in-out;
+  transition: 0.5s all;
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+
+.accordion-button::after, .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus, .btn-check:focus+.btn-primary, .btn-primary:focus, .btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+  z-index: 3;
+  border-color: #cb0069;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(204 1 106 / 15%)!important;
+}
+
 .bg-dark {
   background-color: #222222;
 }
