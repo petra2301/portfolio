@@ -10,3 +10,9 @@ school stuff?
 
 download cv
 images
+<<<<<<< HEAD
+=======
+order on north project
+order on iform project
+refine hair edges on background img
+>>>>>>> a89e2d01026343dec4ecacc6af414935ad4b4a27

@@ -236,6 +236,11 @@ nav > ul > li > a:hover {
 .bg-opacity-8 {
   background-color: rgb(223 223 223 / 80%);
 }
+
+.bg-opacity-3 {
+  background-color: rgb(223 223 223 / 30%);
+}
+
 .container-900 {
   max-width: 900px;
 }
@@ -273,7 +278,7 @@ nav > ul > li > a:hover {
 }
 
 .intro-img {
-  max-height: 100vh;
+  max-height: 1000px;
 width: auto!important;
 max-width: calc(100vw - 100px);
 object-fit: cover;
@@ -284,6 +289,8 @@ object-fit: cover;
 }
 
 /* UNIQUE ELEMENTS */
+
+
 #openMobileMenu {
   position: fixed;
   top: 5px;
@@ -332,7 +339,14 @@ footer {
     height: auto!important;
   }
 
-  #intro-text {
+  /* #intro-text {
     margin-top: -50%;
+  } */
+}
+
+@media all and (max-width: 1200px) {
+  #cv-image {
+    height: 50vh!important;
   }
+
 }
